@@ -5,7 +5,7 @@ Example usage:
     
     var myArray = ["gracias", "ustedes", "llaves", "cartas", "ceno", "mujer", "hombre"];
     var myListProcessor = new processor();
-    myListProcessor.processIterate(fileList, function(myArray, iterator ){
+    myListProcessor.processIterate(myArray, function(myArray, iterator ){
       console.log(myArray[iterator]);
       //single out the last loop
       if(fileList.length-1 == iterator){
