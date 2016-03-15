@@ -1,5 +1,5 @@
-processor = function(){};
-processor.prototype.processIterate = function(list, func, speed, chunk, count){
+
+processIterate = function(list, func, speed, chunk, count){
   if(speed == undefined){
     speed = 10;
   }
