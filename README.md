@@ -5,12 +5,10 @@ Example usage:
     
     //create a list you want to work with. It can be a multidimensional array.
     var myArray = ["gracias", "ustedes", "llaves", "cartas", "ceno", "mujer", "hombre"];
-    
-    //instantiate a processor class instance
-    var myListProcessor = new processor();
+
     
     //Parameters: the array, the function to run at each iteration, milliseconds between loops, the number of items to process per loop
-    myListProcessor.processIterate(myArray, function(myArray, iterator ){
+    processIterate(myArray, function(myArray, iterator ){
       console.log(myArray[iterator]);
       //single out the last loop
       if(fileList.length-1 == iterator){
