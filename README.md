@@ -11,7 +11,7 @@ Example usage:
     processIterate(myArray, function(myArray, iterator ){
       console.log(myArray[iterator]);
       //single out the last loop
-      if(fileList.length-1 == iterator){
+      if(myArray.length-1 == iterator){
         console.log("vamos a starbucks.");
       }
     }, 250, 2);
