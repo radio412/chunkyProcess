@@ -19,7 +19,7 @@ processIterate = function(list, func, speed, chunk, count){
     }
     if(count < list.length-1){
       count = count+chunk;
-      scope.processIterate(list, func, speed, chunk, count);
+      processIterate(list, func, speed, chunk, count);
     }
   }, speed);
 }
