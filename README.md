@@ -1,5 +1,5 @@
 # chunkyProcess
-A JavaScript for loop processor that can be throttled
+A JavaScript for loop processor that can be throttled. THIS WAS FOR LEGACY BROWSERS IN A GALAXY FAR FAR AWAY. I am keeping it here in case i need it again. Use threads.
 
 Example usage:
     
